@@ -1,0 +1,106 @@
+html, body{
+    height: 100%;
+    color: white;
+    font-size: 16px;
+    background-color: #000;
+    margin:0;
+    padding:0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.footer {
+    flex-shrink: 0;
+    border-top: 10px solid #222222;
+    width: 100%;
+}
+
+.landing-header{
+    display: flex;
+    padding-top: .5rem;
+    height: auto;
+    position: relative;
+    margin: 0 3.5rem;
+}
+
+.header-logo {
+    float: left;
+    flex: 50%;
+}
+
+#logo{
+    height: 50px;
+}
+
+.header-right {
+    float: right;
+}
+
+.login-btn{
+    border: none;
+    border-radius: 12px;
+    background-color: #e50914;
+    color: white;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.bg-img{
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.main-content{
+    margin: 100px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    width: 100%;
+}
+
+.email-input{
+    border-radius: 0%;
+    border: none;
+    height: 40px;
+    width: 300px;
+    margin: 0%;
+}
+
+.email-input:focus {
+    border: 1px solid #555;
+}
+
+.register-btn{
+    border-radius: 0%;
+    border: none;
+    height: 42px;
+    width: 150px;
+    margin: 0%;
+    cursor: pointer;
+    background-color: #e50914;
+    color: white;
+}
+
+.register-btn:hover{
+    background-color: #e42e37;
+}
