@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheets.css">
     <link rel="icon" href="/assets/favicon-32x32.png">
-    <title>Log In</title>
+    <title>Sign Up</title>
 </head>
 <body>
     <header class="landing-header">   
@@ -14,15 +14,18 @@
             <a href="/landing.html">
                 <img src="assets/PngItem_1680211.png" id="logo" alt="logo">
             </a>
-        </div>  
+        </div>
+        <form>
+          <button class="login-btn" formaction="/login.html" >Log In</button>
+        </form>  
     </header>
     <main class="content">
-        <img class="bg-img" src="assets/neo.jpg" alt="">
+        <img class="bg-img" src="assets/jl.jpg" alt="">
         <div class="main-content">
             <div id="card">
                 <div id="card-content">
                   <div id="card-title">
-                    <h2>LOGIN</h2>
+                    <h2>Sign Up</h2>
                     <div class="underline-title"></div>
                   </div>
                   <form class="form">
@@ -30,18 +33,19 @@
                         &nbsp;Email
                       </label>
                     <input id="user-email" class="form-content" type="email" name="email" autocomplete="on" required />
+                    <label for="username" style="padding-top:13px">
+                        &nbsp;Username
+                      </label>
+                    <input id="username" class="form-content" type="text" name="username" autocomplete="on" required />
                     <div class="form-border"></div>
                     <label for="user-password" style="padding-top:22px">&nbsp;Password
                       </label>
                     <input id="user-password" class="form-content" type="password" name="password" required />
+                    <label for="user-password-verification" style="padding-top:22px">&nbsp;Verify your password
+                    </label>
+                  <input id="user-password" class="form-content" type="password" name="password" required />
                     <div class="form-border"></div>
-                    <a href="#">
-                      <legend id="forgot-pass">Forgot password?</legend>
-                    </a>
-                    <form>
-                        <input id="submit-btn" type="submit" name="submit" value="LOGIN" formaction="/browse.html" />
-                    </form>
-                    <a href="/signup.html" id="signup">Don't have account yet?</a>
+                    <input id="submit-btn" type="submit" name="submit" value="Sign Up" formaction="/browse.html"/>
                   </form>
                 </div>
               </div>
