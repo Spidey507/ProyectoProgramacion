@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheets.css">
+    <link rel="icon" href="/assets/favicon-32x32.png">
     <title>Definitely not Netflix</title>
 </head>
 <body>
@@ -25,10 +26,11 @@
         <div class="main-content">
             <h1 class="row">Unlimited movies, TV shows, and more.</h1>
             <h3 class="row">Watch anywhere. Cancel anytime</h3>
-            <h4 class="row">Ready to watch? Enter your email to create or restart your membership</h4>
+            <h4 class="row">Ready to watch? Sign up with this button below</h4>
             <div class="row">
-                <input class="email-input" type="email" name="email" id="" placeholder="Email address">
-                <button class="register-btn" type="submit">Get Started</button>
+                <form>
+                    <button class="register-btn" type="submit" formaction="/signup.html">Get Started</button>
+                </form>
             </div>
         </div>
     </main>
