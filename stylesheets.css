@@ -249,3 +249,78 @@ body {
     width: 89px;
   }
   
+  .flex-grid{
+    display: flex;
+  }
+
+  .col{
+    flex: 1;
+  }
+
+  .flex-grid-thirds{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-grid-thirds .col{
+    width: 32%;
+  }
+
+.bg-img-browse{
+  opacity: 0.6;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.main-content-browse{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.show{
+  perspective: 150rem;
+  position: relative;
+  height: auto;
+  width: auto;
+  margin: 2rem;
+  box-shadow: none;
+  background: none;
+}
+
+.show-side{
+  height: auto;
+  border-radius: 15px;
+  transition: all 0.8s ease;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2rem;
+  color: white;
+}
+
+.show-side.back{
+  transform: rotateY(-180deg);
+  background-color: #595959;
+
+}
+
+.show-side.front{
+  background-color: #222222;
+
+}
+
+.show:hover .show-side.front{
+  transform: rotateY(180deg);
+}
+
+.show:hover .show-side.back{
+  transform: rotateY(0deg);
+}
