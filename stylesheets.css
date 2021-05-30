@@ -260,6 +260,7 @@ body {
   .flex-grid-thirds{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
   }
 
   .flex-grid-thirds .col{
@@ -285,7 +286,7 @@ body {
 }
 
 .show{
-  perspective: 150rem;
+  perspective: 500rem;
   position: relative;
   height: auto;
   width: auto;
