@@ -248,24 +248,24 @@ body {
     margin: -1.1rem auto 0 auto;
     width: 89px;
   }
-  
-  .flex-grid{
-    display: flex;
-  }
 
-  .col{
-    flex: 1;
-  }
-
-  .flex-grid-thirds{
+  .container-browse {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 50px;
   }
 
-  .flex-grid-thirds .col{
-    width: 32%;
+  .item{
+      width: 32%;
+      padding-bottom: 20%;
+      margin-bottom: 5%; 
+      position: relative;
   }
+
+  .main-item{
+    width: 100%;  
+    position: relative;
+}
 
 .bg-img-browse{
   opacity: 0.6;
