@@ -261,6 +261,7 @@ body {
       padding-bottom: 20%;
       margin-bottom: 0%; 
       position: relative;
+      justify-content: center;
   }
 
   .main-item{
@@ -320,7 +321,7 @@ body {
   perspective: 500rem;
   position: relative;
   height: auto;
-  width: auto;
+  width: 85%;
   margin: 2rem;
   box-shadow: none;
   background: none;
