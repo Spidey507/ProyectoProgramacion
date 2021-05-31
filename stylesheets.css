@@ -406,9 +406,20 @@ body {
   position: relative;
   height: auto;
   width: 85%;
-  margin: 25px;
   box-shadow: none;
   background: none;
+  margin-left: 65px;
+}
+.show button{
+  border: none;
+  background-color: #005d69;
+  color: white;
+  line-height: normal;
+  margin: 14px 57px;
+  padding: 7px 23px;
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 .show-side{
@@ -425,9 +436,12 @@ body {
 
 .show-side.back{
   transform: rotateY(-180deg);
-  background-color: #595959;
-  margin: 40px 50px;
+  background-color: #99919177;
+}
 
+.show-side.back h1{
+  align-content: center;
+  text-align: center;
 }
 
 .show-side.front{
