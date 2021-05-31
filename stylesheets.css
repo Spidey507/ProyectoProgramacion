@@ -106,6 +106,7 @@ body {
 
 #logo{
     height: 50px;
+    align-items: center;
 }
 
 .header-right {
