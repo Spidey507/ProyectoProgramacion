@@ -3,7 +3,7 @@ html, body{
     height: 100%;
     color: white;
     font-size: 16px;
-    background-color: #000;
+    background-color: #141414;
     margin:0;
     padding:0;
 }
@@ -259,7 +259,7 @@ body {
   .item{
       width: 32%;
       padding-bottom: 20%;
-      margin-bottom: 10%; 
+      margin-bottom: 0%; 
       position: relative;
   }
 
@@ -346,7 +346,8 @@ body {
 
 .show-side.front{
   background-color: #222222;
-
+  padding: 0%;
+  margin: 0%;
 }
 
 .show:hover .show-side.front{
@@ -355,4 +356,26 @@ body {
 
 .show:hover .show-side.back{
   transform: rotateY(0deg);
+}
+
+.card-image{
+  border-radius: 8px;
+  padding: 0%;
+  background-size: cover;
+}
+
+.browse-header{
+  display: flex;
+  width: 100%;
+  padding-top: .5rem;
+  height: auto;
+  position: sticky;
+  margin: 0;
+  background-color: transparent !important;
+}
+
+.browse-logo {
+  float: left;
+  flex: 50%;
+  margin-left: 5%;
 }
