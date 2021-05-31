@@ -39,12 +39,15 @@ body {
 }
 
 .header-logo {
+    display: flex;
+    align-items: center;
     float: left;
     flex: 50%;
 }
 
 #logo{
     height: 50px;
+    align-items: center;
 }
 
 .header-right {
