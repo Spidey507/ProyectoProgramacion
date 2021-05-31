@@ -291,10 +291,10 @@ body {
     text-align: center;
   }
   #submit-btn {
-    background: -webkit-linear-gradient(right, #e42e37, #e50914);
+    background: -webkit-linear-gradient(right, #0d9caf, #005d69);
     border: none;
     border-radius: 21px;
-    box-shadow: 0px 1px 8px #e42e37;
+    box-shadow: 0px 1px 8px #0f92a3;
     cursor: pointer;
     color: white;
     height: 42.3px;
@@ -312,7 +312,7 @@ body {
     flex-direction: column;
   }
   .form-border {
-    background: -webkit-linear-gradient(right, #e42e37, #e50914);
+    background: -webkit-linear-gradient(right, #0d9caf, #005d69);
     height: 1px;
     width: 100%;
   }
@@ -323,7 +323,7 @@ body {
     padding-top: 14px;
   }
   .underline-title {
-    background: -webkit-linear-gradient(right, #e42e37, #e50914);
+    background: -webkit-linear-gradient(right, #0d9caf, #005d69);
     height: 2px;
     margin: -1.1rem auto 0 auto;
     width: 89px;
