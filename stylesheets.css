@@ -98,6 +98,8 @@ body {
 }
 
 .header-logo {
+    display: flex;
+    align-items: center;
     float: left;
     flex: 50%;
 }
