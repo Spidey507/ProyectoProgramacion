@@ -162,6 +162,11 @@ body {
   margin-left: 90px;
 }
 
+.main-content-browse iframe{
+  margin-left: 70px;
+  margin-top: 40px;
+}
+
 .back{
   color: white;
   text-decoration: none;
@@ -401,7 +406,7 @@ body {
   position: relative;
   height: auto;
   width: 85%;
-  margin: 2rem;
+  margin: 25px;
   box-shadow: none;
   background: none;
 }
@@ -421,6 +426,7 @@ body {
 .show-side.back{
   transform: rotateY(-180deg);
   background-color: #595959;
+  margin: 40px 50px;
 
 }
 
